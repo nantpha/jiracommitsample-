@@ -1,0 +1,456 @@
+2769 [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "issueTypes" : null,
+      "startDate" : null,
+      "lead" : null,
+      "avatarUrls" : null,
+      "url" : null,
+      "expand" : null,
+      "self" : null,
+      "components" : null,
+      "versions" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "avatarId" : null,
+      "subtask" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "emailAddress" : null,
+      "active" : null,
+      "avatarUrls" : null,
+      "self" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+3017 [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+3523 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+4932 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+
+5416 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 55
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: f18315c834766019
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 12:30:13 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_654b2bac06aad65d1af9f0977cf4b0e62e57914a_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 80a08da4-8fe2-4d7a-857e-3f1903dea380
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+982  [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "expand" : null,
+      "self" : null,
+      "components" : null,
+      "versions" : null,
+      "startDate" : null,
+      "avatarUrls" : null,
+      "issueTypes" : null,
+      "url" : null,
+      "lead" : null
+    },
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "avatarId" : null,
+      "subtask" : null
+    },
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+1313 [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+1794 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+59802 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+
+60118 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 37
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 1d651ba29d9dfc8a
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 12:55:36 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_ddd97ff77b495922c3dee17d0782105839d37fc8_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: dafd3811-be92-4408-bd0d-5108cf3c7a52
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+744  [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "expand" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "versions" : null,
+      "components" : null,
+      "startDate" : null,
+      "avatarUrls" : null,
+      "url" : null,
+      "lead" : null,
+      "issueTypes" : null
+    },
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "iconUrl" : null
+    },
+    "description" : "Full description for issue",
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "summary" : "something's wrong"
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+770  [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+1074 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"description":"Full description for issue","assignee":{"name":"PROJECT_LEAD"},"summary":"something's wrong"}}
+1958 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"description":"Full description for issue","assignee":{"name":"PROJECT_LEAD"},"summary":"something's wrong"}}
+
+2443 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 52
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 6d79e77579663a13
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 16:38:02 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_c5d77265c98f608a4cc26f207bb993e9229dd803_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 8d6dc741-e7d2-494b-bebf-346f24ba9eaa
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+959  [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "avatarUrls" : null,
+      "url" : null,
+      "lead" : null,
+      "issueTypes" : null,
+      "startDate" : null,
+      "components" : null,
+      "versions" : null,
+      "expand" : null,
+      "self" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "summary" : "something's wrong"
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+1095 [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+1434 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"assignee":{"name":"PROJECT_LEAD"},"summary":"something's wrong"}}
+2468 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"assignee":{"name":"PROJECT_LEAD"},"summary":"something's wrong"}}
+
+2593 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 46
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: ce0dfb7b12e1416f
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 16:40:22 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_37bdf913ed31df7f2fdc9b944032abb38cf61256_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 5e0b5ae4-3dd6-40be-b2f2-1bd1e6fdb681
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+745  [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "self" : null,
+      "expand" : null,
+      "components" : null,
+      "versions" : null,
+      "issueTypes" : null,
+      "url" : null,
+      "avatarUrls" : null,
+      "startDate" : null,
+      "lead" : null
+    },
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "subtask" : null
+    },
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+766  [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+1063 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+1874 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"PROJECT_LEAD"},"summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+
+2170 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 29
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: b9f94b027a1f09ae
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 17:17:52 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_4826d7d767e14271a7fb9742b37043e1db5d3e38_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 3abaf284-1384-4baa-9d3e-fc46de6e6a90
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+951  [main] INFO  com.nani.jira.services.IssueTest - {
+  "fields" : {
+    "issuetype" : {
+      "name" : "PROJECT_LEAD",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "avatarId" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "expand" : null,
+      "avatarUrls" : null,
+      "url" : null,
+      "lead" : null,
+      "startDate" : null,
+      "issueTypes" : null,
+      "components" : null,
+      "versions" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "description" : "Full description for issue",
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "PROJECT_LEAD",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+985  [main] INFO  com.nani.jira.JIRAHTTPClient - Using default Configuration
+1544 [main] DEBUG com.nani.jira.services.IssueService - Content={"fields":{"issuetype":{"name":"PROJECT_LEAD"},"project":{"key":"TES"},"description":"Full description for issue","summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+2549 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic bmFuaXRwaGEwN0BnbWFpbC5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"issuetype":{"name":"PROJECT_LEAD"},"project":{"key":"TES"},"description":"Full description for issue","summary":"something's wrong","assignee":{"name":"PROJECT_LEAD"}}}
+
+2861 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 64
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: fd7e989afa9ac9c9
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Thu, 18 Feb 2021 17:47:35 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_24a876ac47f734fb7446a5b58a8d6244b3099a10_lin; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 32abac21-be2c-49df-969b-e70391a90434
+1 < micros-issuer: micros/edge-authenticator
+1 < x-aaccountid: 5e26ae250e07ef0e6bbd1bd6
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+

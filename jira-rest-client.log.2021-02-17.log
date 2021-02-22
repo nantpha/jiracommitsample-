@@ -1,0 +1,1837 @@
+696  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "avatarId" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "subtask" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "expand" : null,
+      "self" : null,
+      "components" : null,
+      "versions" : null,
+      "startDate" : null,
+      "url" : null,
+      "lead" : null,
+      "avatarUrls" : null,
+      "issueTypes" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "summary" : "something's wrong",
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "active" : null,
+      "self" : null,
+      "lead" : null,
+      "isAssigneeTypeValid" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "active" : null,
+      "self" : null,
+      "lead" : null,
+      "isAssigneeTypeValid" : null
+    } ],
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null,
+      "avatarUrls" : null
+    },
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null,
+      "avatarUrls" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+1343 [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "self" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "labels" : [ "bugfix", "blitz_test" ],
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "self" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "url" : null,
+      "startDate" : null,
+      "issueTypes" : null,
+      "avatarUrls" : null,
+      "lead" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null,
+      "projectTypeKey" : null,
+      "projectCategory" : null
+    },
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "self" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "self" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "summary" : "something's wrong",
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "self" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "self" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+651  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "iconUrl" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null,
+      "url" : null,
+      "startDate" : null,
+      "lead" : null,
+      "avatarUrls" : null,
+      "issueTypes" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "summary" : "something's wrong",
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    },
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+682  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1388 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"summary":"something's wrong","reporter":{"name":"gitlab"},"assignee":{"name":"lesstif"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+2048 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"summary":"something's wrong","reporter":{"name":"gitlab"},"assignee":{"name":"lesstif"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+
+2439 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 130
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 8f10a6110add3923
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 06:01:34 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_429b52b0c4aee8ddb5f18819857e5a9d23447c9d_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: aa1d173a-4ea7-4b0b-8e92-02fffe17da51
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+661  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "statusColor" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "issueTypes" : null,
+      "lead" : null,
+      "startDate" : null,
+      "avatarUrls" : null,
+      "url" : null,
+      "projectTypeKey" : null,
+      "projectCategory" : null,
+      "versions" : null,
+      "components" : null,
+      "expand" : null,
+      "self" : null
+    },
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "subtask" : null,
+      "iconUrl" : null,
+      "avatarId" : null,
+      "self" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "summary" : "something's wrong",
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+683  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1046 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"assignee":{"name":"lesstif"},"reporter":{"name":"gitlab"},"summary":"something's wrong","components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+1425 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"assignee":{"name":"lesstif"},"reporter":{"name":"gitlab"},"summary":"something's wrong","components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+
+1598 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 79
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 29e399bf59d1e125
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 06:05:26 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_b34354aaa09713aab3d489da4769268a3420c5f7_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 36b9c95d-1b1d-4021-934d-288790e29e3e
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+706  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "labels" : [ "bugfix", "blitz_test" ],
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectTypeKey" : null,
+      "projectCategory" : null,
+      "self" : null,
+      "expand" : null,
+      "components" : null,
+      "versions" : null,
+      "url" : null,
+      "avatarUrls" : null,
+      "startDate" : null,
+      "issueTypes" : null,
+      "lead" : null
+    },
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "iconUrl" : null
+    },
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    } ],
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+728  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1078 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","labels":["bugfix","blitz_test"],"project":{"key":"TES"},"issuetype":{"name":"Task"},"reporter":{"name":"gitlab"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","assignee":{"name":"lesstif"}}}
+1489 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","labels":["bugfix","blitz_test"],"project":{"key":"TES"},"issuetype":{"name":"Task"},"reporter":{"name":"gitlab"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","assignee":{"name":"lesstif"}}}
+
+1951 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 73
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 95bc0d5fb8425503
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 06:37:47 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_068c29463a4c350dc1494038ee96ef2c85697ea4_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: abefb1ee-fba0-40c9-accb-7f45464ee52d
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+669  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "statusColor" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "self" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "lead" : null,
+      "url" : null,
+      "issueTypes" : null,
+      "avatarUrls" : null,
+      "startDate" : null,
+      "components" : null,
+      "versions" : null,
+      "expand" : null,
+      "self" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "active" : null,
+      "lead" : null,
+      "self" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "active" : null,
+      "lead" : null,
+      "self" : null
+    } ],
+    "reporter" : {
+      "name" : "gitlab",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "emailAddress" : null,
+      "active" : null,
+      "avatarUrls" : null,
+      "self" : null
+    },
+    "assignee" : {
+      "name" : "lesstif",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "emailAddress" : null,
+      "active" : null,
+      "avatarUrls" : null,
+      "self" : null
+    },
+    "summary" : "something's wrong"
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+697  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1298 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"labels":["bugfix","blitz_test"],"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"gitlab"},"assignee":{"name":"lesstif"},"summary":"something's wrong"}}
+1741 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"labels":["bugfix","blitz_test"],"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"gitlab"},"assignee":{"name":"lesstif"},"summary":"something's wrong"}}
+
+2095 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 65
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: c27072c2bdfe7975
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 06:50:21 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_818c52afea1d1104f8b7ac8f2c91edfd434f1ff6_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 6b8b139d-f34c-40a4-9158-a77da3a31182
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+726  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "url" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null,
+      "avatarUrls" : null,
+      "issueTypes" : null,
+      "lead" : null,
+      "startDate" : null
+    },
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "subtask" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    } ],
+    "summary" : "something's wrong",
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+748  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1189 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"}}}
+1550 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"}}}
+
+1898 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 59
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 7f11204254c31856
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 07:47:02 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_1d05a8258fc6e3cac4478bb0a59108e7c2bd28db_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 529a5f74-785f-471e-bea3-275d3ebb45df
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+797  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "self" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "url" : null,
+      "issueTypes" : null,
+      "startDate" : null,
+      "lead" : null,
+      "avatarUrls" : null,
+      "components" : null,
+      "versions" : null,
+      "expand" : null,
+      "self" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "self" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null,
+      "isAssigneeTypeValid" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null,
+      "isAssigneeTypeValid" : null
+    } ],
+    "summary" : "something's wrong",
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+825  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1319 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","reporter":{"name":"prashanth"},"assignee":{"name":"prashanth"}}}
+1723 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > POST https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","project":{"key":"TES"},"issuetype":{"name":"Task"},"labels":["bugfix","blitz_test"],"components":[{"name":"Component-1"},{"name":"Component-2"}],"summary":"something's wrong","reporter":{"name":"prashanth"},"assignee":{"name":"prashanth"}}}
+
+1934 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 400
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 64
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: d059891ec5451bb2
+1 < X-Content-Type-Options: nosniff
+1 < Connection: close
+1 < Date: Wed, 17 Feb 2021 07:47:13 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_e86a9ec39726a8b53af413f68575e47bf266457d_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 3e9753de-d006-4dcf-981f-cdda529967ff
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":[],"errors":{"summary":"Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.","components":"Field 'components' cannot be set. It is not on the appropriate screen, or unknown.","description":"Field 'description' cannot be set. It is not on the appropriate screen, or unknown.","reporter":"Field 'reporter' cannot be set. It is not on the appropriate screen, or unknown.","assignee":"Field 'assignee' cannot be set. It is not on the appropriate screen, or unknown.","priority":"Field 'priority' cannot be set. It is not on the appropriate screen, or unknown.","labels":"Field 'labels' cannot be set. It is not on the appropriate screen, or unknown."}}
+
+961  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "avatarId" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null,
+      "url" : null,
+      "startDate" : null,
+      "lead" : null,
+      "issueTypes" : null,
+      "avatarUrls" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+984  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1520 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+1899 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+
+2237 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 43
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 04a78bb8324573fd
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 11:50:20 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_4aa16016c015391551287de6522afafad75ed5dc_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 5a83864d-cc77-44d5-9099-3b0ca8c3cf71
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+1179 [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "statusColor" : null,
+      "self" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "avatarUrls" : null,
+      "lead" : null,
+      "url" : null,
+      "startDate" : null,
+      "issueTypes" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "self" : null
+    },
+    "description" : "Full description for issue",
+    "labels" : [ "bugfix", "blitz_test" ],
+    "reporter" : {
+      "timeZone" : null,
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "assignee" : {
+      "timeZone" : null,
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "self" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null,
+      "isAssigneeTypeValid" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null,
+      "isAssigneeTypeValid" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+1381 [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+2114 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"project":{"key":"TES"},"issuetype":{"name":"Task"},"description":"Full description for issue","labels":["bugfix","blitz_test"],"reporter":{"name":"prashanth"},"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+89690 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"project":{"key":"TES"},"issuetype":{"name":"Task"},"description":"Full description for issue","labels":["bugfix","blitz_test"],"reporter":{"name":"prashanth"},"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+
+90000 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 30
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 033e77018405afe4
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 11:53:31 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_a1272e1049871b622eeb31b7dc433d736bb299b0_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 803b7b99-6288-425e-acf1-259633b0ef17
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+710  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "statusColor" : null
+    },
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "avatarId" : null,
+      "self" : null,
+      "iconUrl" : null,
+      "subtask" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "expand" : null,
+      "self" : null,
+      "versions" : null,
+      "components" : null,
+      "issueTypes" : null,
+      "startDate" : null,
+      "avatarUrls" : null,
+      "lead" : null,
+      "url" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    },
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null
+    } ]
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+729  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+989  [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+1334 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}]}}
+
+1617 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 16
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: d733b54ccefbed27
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 13:59:10 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_613ba41c1e33f1323264a5ce91a23cf241cfb7e7_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 5d63d4ed-2fef-4c72-a90a-2efa1cdfa4d1
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+1032 [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "statusColor" : null,
+      "iconUrl" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "self" : null,
+      "subtask" : null,
+      "iconUrl" : null,
+      "avatarId" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectCategory" : null,
+      "projectTypeKey" : null,
+      "expand" : null,
+      "self" : null,
+      "components" : null,
+      "versions" : null,
+      "issueTypes" : null,
+      "avatarUrls" : null,
+      "lead" : null,
+      "url" : null,
+      "startDate" : null
+    },
+    "reporter" : {
+      "timeZone" : null,
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "self" : null,
+      "lead" : null,
+      "active" : null
+    } ],
+    "assignee" : {
+      "timeZone" : null,
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "self" : null,
+      "avatarUrls" : null,
+      "active" : null,
+      "emailAddress" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+1064 [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1523 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"labels":["bugfix","blitz_test"],"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"assignee":{"name":"prashanth"}}}
+1920 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"labels":["bugfix","blitz_test"],"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"reporter":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"assignee":{"name":"prashanth"}}}
+
+2047 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 16
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 80110813cf232531
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 14:00:09 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_132210bf26a9375d080c5d4ebaf61e6380cabdaf_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 256c95eb-e1fa-4372-ac67-92a61dc71044
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+591  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "statusColor" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "self" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectTypeKey" : null,
+      "projectCategory" : null,
+      "url" : null,
+      "lead" : null,
+      "issueTypes" : null,
+      "startDate" : null,
+      "avatarUrls" : null,
+      "self" : null,
+      "expand" : null,
+      "versions" : null,
+      "components" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "avatarUrls" : null,
+      "self" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null,
+      "lead" : null,
+      "self" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "active" : null,
+      "isAssigneeTypeValid" : null,
+      "lead" : null,
+      "self" : null
+    } ],
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "active" : null,
+      "emailAddress" : null,
+      "avatarUrls" : null,
+      "self" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "self" : null,
+  "expand" : null
+}
+912  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1265 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"prashanth"}}}
+1718 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"prashanth"}}}
+
+1961 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 27
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 15dbb1adcc3c3720
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 14:00:33 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_f3dc8d9d513da8311530cd549c98582458a9f312_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: bc841f4c-a30b-4b23-85ac-49b263258792
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+722  [main] INFO  com.lesstif.jira.services.IssueTest - {
+  "fields" : {
+    "priority" : {
+      "name" : "Critical",
+      "id" : null,
+      "description" : null,
+      "iconUrl" : null,
+      "statusColor" : null,
+      "self" : null
+    },
+    "description" : "Full description for issue",
+    "issuetype" : {
+      "name" : "Task",
+      "id" : null,
+      "description" : null,
+      "subtask" : null,
+      "avatarId" : null,
+      "iconUrl" : null,
+      "self" : null
+    },
+    "project" : {
+      "name" : null,
+      "key" : "TES",
+      "id" : null,
+      "description" : null,
+      "projectTypeKey" : null,
+      "projectCategory" : null,
+      "expand" : null,
+      "url" : null,
+      "lead" : null,
+      "startDate" : null,
+      "issueTypes" : null,
+      "avatarUrls" : null,
+      "self" : null,
+      "components" : null,
+      "versions" : null
+    },
+    "labels" : [ "bugfix", "blitz_test" ],
+    "assignee" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null,
+      "self" : null
+    },
+    "components" : [ {
+      "name" : "Component-1",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null
+    }, {
+      "name" : "Component-2",
+      "id" : null,
+      "displayName" : null,
+      "description" : null,
+      "isAssigneeTypeValid" : null,
+      "lead" : null,
+      "active" : null,
+      "self" : null
+    } ],
+    "reporter" : {
+      "name" : "prashanth",
+      "key" : null,
+      "displayName" : null,
+      "timeZone" : null,
+      "avatarUrls" : null,
+      "emailAddress" : null,
+      "active" : null,
+      "self" : null
+    }
+  },
+  "key" : null,
+  "id" : null,
+  "expand" : null,
+  "self" : null
+}
+741  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1093 [main] DEBUG c.l.jira.services.IssueService - Content={"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"prashanth"}}}
+1915 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > PUT https://prashanthnanitpha.atlassian.net/rest/api/2/issue
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+{"fields":{"priority":{"name":"Critical"},"description":"Full description for issue","issuetype":{"name":"Task"},"project":{"key":"TES"},"labels":["bugfix","blitz_test"],"assignee":{"name":"prashanth"},"components":[{"name":"Component-1"},{"name":"Component-2"}],"reporter":{"name":"prashanth"}}}
+
+2245 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 405
+1 < allow: POST,OPTIONS
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 25
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 46c1385d19bc15ea
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 14:49:25 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_3809a4dab1265a5aafd9cb24ce85c1d8d7b8de64_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 570b2d6b-79ab-448f-90fc-b2f2ca86a438
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/html;charset=UTF-8
+1 < 
+
+363  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1114 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TEST
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+2100 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 20
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: dd56feebc425714d
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 14:49:38 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_0db2b9bf1e682eacc75346a467f714e8f60ed360_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 536f12e7-bdd9-47ea-9395-438581745c02
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TEST'."],"errors":{}}
+
+699  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1567 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TEST
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+2730 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 21
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 92029933a8414bc5
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:09:56 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_3ddb7fe47e03e88c22b26300f556edaf5dbf786f_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 36047f67-c022-483e-87a2-91376862450b
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TEST'."],"errors":{}}
+
+1440 [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+2337 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TestingApplication
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+3351 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 21
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: ef35311fcc2074e8
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:10:58 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_f39e8590ce23b89ff2b8b62f46303a4585080ff5_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: cad17584-e675-4a8d-acd7-b391cd18381d
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TestingApplication'."],"errors":{}}
+
+512  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1321 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TestingApplication
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+2842 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 20
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 753fc6a2f9d4eb79
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:14:15 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_e908f0f34eaf9f44b0839913bc07d68e6dc70367_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 90a4b9be-8e4d-4251-9a07-010ea77b75ae
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TestingApplication'."],"errors":{}}
+
+323  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+2248 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+3268 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 200
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 62
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 95c96a4bfebe53da
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:14:26 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_af5776d7cdae7dc13fd62f9e51e204907174da98_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: a336d4bc-2a18-465a-b2dd-1c5249f9793c
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+[]
+
+430  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1175 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206UFRzeW5lQDEyMw==
+
+2156 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 401
+1 < Transfer-Encoding: chunked
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: fc4a7089bf6e9dad
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < X-XSS-Protection: 1; mode=block
+1 < Date: Wed, 17 Feb 2021 15:16:44 GMT
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: text/plain
+1 < 
+Basic authentication with passwords is deprecated.  For more information, see: https://confluence.atlassian.com/cloud/deprecation-of-basic-authentication-with-passwords-for-jira-and-confluence-apis-972355348.html
+
+
+317  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1004 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+1996 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 200
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 52
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: d5015c3bab333375
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:17:01 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_ea5c962a1947fa0358f34a6547fe609887521d84_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: a3bd4ee3-5262-47aa-8bfb-055bb3436c4d
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+[]
+
+531  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1521 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+2698 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 200
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 32
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: fe87d4c607ab271a
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:22:01 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_8929cfd75d7516c858e3400c7f3ba97716adf2fc_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 0d4ca46c-0150-4f05-9906-e8c117d120b6
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+[]
+
+764  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+2111 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+3164 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 200
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 35
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 270b656dcf41f299
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:22:12 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_efdfd76b52de868e45dd19b05f7383e1216e5563_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 61b3edad-c9a0-4a2f-ae6f-0e568886c398
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+[]
+
+601  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+633089 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TestingApplication
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+635396 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 26
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 7f18112cc5aad4f5
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:33:31 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_ed79aee41ed98f599c0da511e389002d35592842_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: 80be7df5-60cc-42a3-b034-666b6773af67
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TestingApplication'."],"errors":{}}
+
+342  [main] INFO  com.lesstif.jira.JIRAHTTPClient - Using default Configuration
+1110 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client out-bound request
+1 > GET https://prashanthnanitpha.atlassian.net/rest/api/2/project/TES
+1 > Accept: application/json
+1 > Content-Type: application/json
+1 > Authorization: Basic cHJhc2hhbnRoLnN5bmVAb3V0bG9vay5jb206Rzk2Tm1lbnZpNzhJaXAxMEVMMExDREY1
+
+2192 [main] INFO  c.s.j.a.client.filter.LoggingFilter - 1 * Client in-bound response
+1 < 404
+1 < Transfer-Encoding: chunked
+1 < x-envoy-upstream-service-time: 38
+1 < Server: AtlassianProxy/1.15.8.1
+1 < ATL-TraceId: 3c1ee35b1ec995e6
+1 < vary: Accept-Encoding
+1 < X-Content-Type-Options: nosniff
+1 < Connection: keep-alive
+1 < Date: Wed, 17 Feb 2021 15:37:50 GMT
+1 < set-cookie: atlassian.xsrf.token=f7897399-ee92-499d-b91b-a7420f3cf989_376c21c5f62649fe6537d3c95c118af59ff1f2c0_lout; Path=/; Secure
+1 < Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+1 < x-arequestid: a148cb2e-ee13-45c5-9f20-3be7e14feaec
+1 < micros-issuer: micros/edge-authenticator
+1 < timing-allow-origin: *
+1 < X-XSS-Protection: 1; mode=block
+1 < cache-control: no-cache, no-store, no-transform
+1 < Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+1 < Content-Type: application/json;charset=UTF-8
+1 < 
+{"errorMessages":["No project could be found with key 'TES'."],"errors":{}}
+
